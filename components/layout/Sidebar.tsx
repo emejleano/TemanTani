@@ -25,7 +25,7 @@ const Sidebar: React.FC<SidebarProps> = ({ activeView, setActiveView }) => {
   return (
     <aside className="w-64 bg-white shadow-md flex-shrink-0 flex flex-col">
       <div className="p-4 flex items-center border-b h-16">
-         <img src="media/Green Minimal Agriculture Business Logo.png" alt="Logo" className="w-10 h-10"/>
+         <img src="/Green Minimal Agriculture Business Logo.png" alt="Logo" className="w-10 h-10"/>
         <h1 className="text-xl font-bold text-gray-800 ml-3">Teman Tani</h1>
       </div>
       <nav className="mt-4 flex-1">
