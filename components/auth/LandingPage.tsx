@@ -9,7 +9,7 @@ const LandingPage: React.FC<LandingPageProps> = ({ onNavigate }) => {
     <div className="min-h-screen bg-gray-50 flex flex-col items-center justify-center font-sans">
       <header className="absolute top-0 left-0 p-8">
         <div className="flex items-center">
-            <img src="https://raw.githubusercontent.com/google/material-design-icons/master/src/social/agriculture/materialicons/24px.svg" alt="Logo" className="w-12 h-12" style={{ filter: 'grayscale(1) brightness(0.5) invert(1)'}}/>
+            <img src="media/Green Minimal Agriculture Business Logo.png" alt="Logo" className="w-20 h-20"/>
             <h1 className="text-3xl font-bold text-gray-800 ml-3">Teman Tani</h1>
         </div>
       </header>
