@@ -17,8 +17,8 @@ const AdminSidebar: React.FC<AdminSidebarProps> = ({ activeView, setActiveView }
   return (
     <aside className="w-64 bg-white shadow-md flex-shrink-0">
       <div className="p-4 flex items-center border-b">
-         <img src="https://emejleano.github.io/TemanTani/logo.png" alt="Logo" className="w-10 h-10" style={{ filter: 'grayscale(1) brightness(0.5) invert(1)'}}/>
-        <h1 className="text-xl font-bold text-gray-800 ml-3">Admin Panel</h1>
+         <img src="https://emejleano.github.io/TemanTani/logo.png" alt="Logo" className="w-30 h-30"/>
+        
       </div>
       <nav className="mt-4">
         <ul>

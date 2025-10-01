@@ -27,8 +27,7 @@ const BuyerSidebar: React.FC<{ activeView: string; setActiveView: (view: string)
     return (
         <aside className="w-64 bg-white shadow-md flex-shrink-0 flex flex-col">
             <div className="p-4 flex items-center border-b h-16">
-                <img src="https://raw.githubusercontent.com/google/material-design-icons/master/src/social/agriculture/materialicons/24px.svg" alt="Logo" className="w-10 h-10" style={{ filter: 'grayscale(1) brightness(0.5) invert(1)'}}/>
-                <h1 className="text-xl font-bold text-gray-800 ml-3">Teman Tani</h1>
+                <img src="https://emejleano.github.io/TemanTani/logo.png" alt="Logo" className="w-30 h-28"/>
             </div>
             <nav className="mt-4 flex-1">
                 <ul>

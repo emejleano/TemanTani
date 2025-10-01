@@ -7,12 +7,18 @@ interface LandingPageProps {
 const LandingPage: React.FC<LandingPageProps> = ({ onNavigate }) => {
   return (
     <div className="min-h-screen bg-gray-50 flex flex-col items-center justify-center font-sans">
-      <header className="absolute top-0 left-0 p-8">
-        <div className="flex items-center">
-            <img src="https://emejleano.github.io/TemanTani/logo.png" alt="Logo" className="w-20 h-20"/>
-            <h1 className="text-3xl font-bold text-gray-800 ml-3">Teman Tani</h1>
-        </div>
-      </header>
+  <header className="absolute top-0 left-0 p-8">
+    <div className="flex items-center">
+      <div className="w-28 h-28 flex items-center justify-center">
+        <img 
+          src="https://emejleano.github.io/TemanTani/logo.png" 
+          alt="Logo" 
+          className="max-w-full max-h-full object-contain" 
+        />
+      </div>
+      <h1 className="text-3xl font-bold text-gray-800 ml-3">Teman Tani</h1>
+    </div>
+  </header>
       <main className="text-center px-4">
         <h2 className="text-5xl font-extrabold text-gray-900 leading-tight">
           Platform Pertanian Cerdas, <br />
